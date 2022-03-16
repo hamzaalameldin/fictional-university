@@ -14,7 +14,6 @@
       <div class="full-width-split__one">
         <div class="full-width-split__inner">
           <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
-          <span>HEY</span>
           <?php  
           $today = date('Ymd');
             $homepageEvents = new WP_Query(array(
