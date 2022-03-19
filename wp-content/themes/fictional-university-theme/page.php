@@ -3,10 +3,10 @@
 get_header();
 
 while (have_posts()) {
+ 
   the_post();
-  pageBanner(array(
-    'title' => 'Hello there this is the title',
-  ));
+  
+  pageBanner(array());
    ?>
 
   
@@ -46,7 +46,7 @@ while (have_posts()) {
           ));
           ?>
         </ul>
-      </div>}
+      </div>
     <?php  } ?>
     <div class="generic-content">
       <?php the_content(); ?>
